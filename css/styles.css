@@ -1,0 +1,23 @@
+            div {
+                background-color: rgb(147, 161, 241);
+                border-radius: 10px;
+            }
+            img {
+                height: 150px;
+                padding: 10px 10px 10px;
+            }
+            li {
+                padding: 5px 5px 5px;
+            }
+            h1 {
+                position: absolute;
+                right: 20%;
+                top: 10%;
+            }
+            p {
+                padding: 15px 15px 15px;
+                text-align: center;
+            }
+            span {
+                text-align: center;
+            }
