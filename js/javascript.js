@@ -1,5 +1,6 @@
 //Variables
-const daynames = [
+console.log("Hello!");
+/*const daynames = [
     "Sunday",
     "Monday",
     "Tuesday",
@@ -26,7 +27,8 @@ const d = new Date();
 const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
-const fulldate = '${dayname}, ${d.getDate} ${monthName} ${year}';
+const fulldate = '${dayname}, ${d.getDate} ${monthName} ${year}';*/
+Time = document.lastModified;
 
 //Output
-document.getElementById("currentdate").textContent = fulldate;
+document.getElementById("currentdate").textContent = document.lastModified;
