@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  } 
+
+/* Nav */
+header {
+    background-color: #31107c;
+    padding: 10px 10px 10px;
+}
+img.header-logo {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: auto;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    font-family: 'Noto Serif', serif;
+    color: #E6E8E6;
+    font-size: 1.5em;
+    padding: 10px 10px 10px;
+}
+.facebook {
+  width: 70%;
+  height: auto;
+  margin-left: 30px;  
+}
+.linkedin {
+  width: 70%;
+  height: auto;
+  margin-left: 30px;
+}
+nav a {
+    font-size: small;
+    color: #E6E8E6;
+    text-decoration: none;
+}
+div.navdate {
+    align-items: center;
+	margin: 5px;
+	border: 1px solid #bbb;
+	padding: 5px;
+	background-color: #E6E8E6;
+    text-align: center;
+    color: #31107c;
+}
+div.flex-container.flex-header {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #16053b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #E6E8E6;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #E6E8E6;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #31107c;
+    color: #E6E8E6;
+    padding: 10px 10px;
+    border: #E6E8E6;
+  }
+  /* hover?
+  .openbtn:hover {
+    background-color: #16053b;
+  }*/
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    background-color: none;
+  }
+
+/* Main */
+#hero-image, #call-to-action, #news-and-events, #weather, #join, #sl-1, #sl-2, #sl-3 {
+    background-color: #E6E8E6;
+    text-align: center;
+    padding: 5px 5px 5px;
+    margin: 10px 10px 10px;
+    color: #31107c;
+}
+
+/* Footer */
+footer {
+    background-color: #31107c;
+    padding: 20px 20px 20px;
+}
+div.flex-container.flex-footer {
+    display: inline-flex;
+    align-items: center;
+    color: #E6E8E6;
+    margin-bottom: 20px;
+}
+#cntct-info {
+    margin-left: 80px;
+}
+img.footer-logo {
+    width: 13%;
+    padding-right: 30px;
+}
+a.map {
+    color: #E6E8E6;
+    text-decoration: none;
+}
+#footer-info {
+    display: block;
+    font-size: x-small;
+    color: #E6E8E6;
+}
+div.attrib, a.icons {
+    text-align: center;
+    font-size: xx-small;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #E6E8E6;
+    text-decoration: none;
+}
+
