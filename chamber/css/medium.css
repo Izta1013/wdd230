@@ -1,0 +1,11 @@
+@media only screen and (min-width:641px) {
+.openbtn {
+    display: none;
+}
+img.header-logo {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: auto;
+}
+}
